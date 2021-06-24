@@ -7,6 +7,9 @@
 // if number can be divided by 3 AND 5 : display FizzBuzz ;
 // else: display the number.
 
+//*********************************************************
+
+// Generate a random integer each time displayMessage() is called.
 const randomInt = (min, max) => {
   min = Math.ceil(min);
   max = Math.floor(max);
